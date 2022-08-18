@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: #f4df4eff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbarmain{
+    background-color: #949398ff;
+    box-shadow: 0 0 10px 0;
+}
+.category{
+    width:120%
+}
+.buttonnav{
+    background-color:#f4df4eff ;
+    color:black;
+    font-weight: bold;
+}
+.buttonnav:hover{
+    background-color:white;
+    color:black
+}
+.navelement{
+    width:500px;
+}
+.brand{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.brand:hover{
+    color:aliceblue;
+}
+.item{
+    margin-left:2%;
+    margin-top: 2%;
+    padding:5%;
+    color:black;
+    font-size: 20px;
+    display:inline-block;
+   
+}
+.cartitem{
+    display:flex;
+    font-size:25px
+}
+.logoutbutton{
+    border:0;
+    padding:0;
+    margin:0 0 0 3%;
+    background-color: #949398ff;
+}
+.logoutbutton:hover{
+    color:blue;
+}
+/* Login.js css */
+.loginheading{
+    color:#949398ff;
+    text-align:center;
+    margin-top: 2% 0 0 0;
+    padding:2% 0 0 0;
+    font-weight: bolder;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:100vh;
+    background-color: #f4df4eff;
+    
+}
+.homebtn{
+    margin:2%;
+    width:10%;
+    background-color:#949398ff ;
+    color:black;
+    font-weight: bold;
+    border: 0;
+}
+.homebtn:hover{
+    background-color:white ;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    text-align:center;
+    padding:2%
+}
+.sellerhome{
+    display:inline-block;
+}
+.loginsub{
+    background-color :#949398ff;
+    width:70%;
+    height:70%;
+   
+}
+.logins{
+    background-color :#949398ff;
+    width:40%;
+    height:60%;
+    box-shadow: 0px 0px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkregister{
+    text-decoration: none;
+    color:black
+}
+.loginsubmit{
+    background-color:#f4df4eff ;
+    color:black;
+    font-weight: bold;
+}
+.loginsubmit:hover{
+    background-color:#949398ff ;
+    color:black;
+}
+/* //register.js css */
+.registers{
+    background-color:#949398ff;
+    width:40%;
+    height:auto;
+    box-shadow: 0px 0px 10px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+padding:2%}
+/* sellers.js css */
+.sellers{
+    background-color:#949398ff;
+    width:40%;
+    height:auto;
+    box-shadow: 0px 0px 10px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+padding:2%}
+
+.unauth{
+    font-size:300px;
+    position:relative;
+    left:40%;
+    color:#949398ff
+}
+
+/* products csss */
+.productsmain{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+.products{
+    background-color: #949398ff;
+    border:2px solid black;
+    box-shadow:0 0 10px ;
+    max-width:350px;
+    padding:1%;
+    margin:1%;
+    height:auto;
+}
+img{
+    width:80%;
+    height:40%
+}
+/* productdetails.js */
+.detailbtn{
+    border:0;
+    padding:0;
+    margin:0 0 0 3%;
+    background-color: #949398ff;
+}
+.detailbtn:hover{
+    background-color: #949398ff;
+}
+/* cart.js css */
+.cartmain{
+    display:flex;
+    flex-direction: column;
+}
+.cart{
+    background-color: #949398ff;
+    border:2px solid black;
+    box-shadow:0 0 10px ;
+    max-width:40%;
+    padding:1%;
+    margin:1%;
+    display:flex;
+   align-items: center;
+
+}
+.cartimg{
+    width:30%;
+    height:30%;
+}
+.cartbtn{
+    width:40px;
+    height:40px;
+    background-color: #f4df4eff;
+    border-radius: 50%;
+    justify-content: center;
+    margin:2%;
+    
+}
+.cartbtn:hover{
+    background-color: #949398ff;
+}
+.incbtn{
+    font-weight: bold;
+    color:black;
+    
+}
+.cartspace{
+    margin-left: 3%;
+    
+}
+.cartnum{
+    text-align: center;
+}
+.removebtn{
+    background-color: #f4df4eff;
+    color:black;
+    font-weight: bold;
+}
+.removebtn:hover{
+    background-color: #949398ff;
+    color:black;
+}
+.clearcart{
+    color:black;
+    width:15%;
+    margin:2%;
+    background-color: #949398ff;
+    color:black;
+    font-weight: bold;
+}
+.clearcart:hover{
+    background-color: #f4df4eff;
+    color:black;
+}
+.cartempty{
+    text-align: center;
+}
+.homebtn{
+    text-align: center;
+}
+/* checkout.js css */
+.checkout{
+    width:100%;
+    height:auto;
+    display:flex;
+}
+.checkoutproduct{
+    width:50%;
+}
+.checkoutdetail{
+    background-color: #949398ff;
+    border:2px solid black;
+    box-shadow:0 0 10px ;
+    width:70%;
+    padding:1%;
+    margin:1%;
+    display:flex;
+   align-items: center;
+}
+.checkoutaddress{
+    border:1px solid black;
+    background-color: #949398ff;
+    width:90%;
+    margin:2%;
+    padding:2%;
+    box-shadow:0 0 10px ;
+}
+.checkoutmain{
+    display:flex;
+    flex-direction: column;
+    margin:2%;
+    width:50%
+}
+.formaddress{
+    width:40%;
+    display:inline-block;
+    margin:0 1% 0 1%;
+}
+.checkoutcard{
+    width:15%;
+    display:inline-block;
+    margin:0 1% 0 1%;
+}
+.checkoutlabel{
+    display:inline-block
+}
+.checkicon{
+     font-size: 50px;
+     text-align: center;
+     color: green 
+}
+.checkoutbtn{
+    background-color: #f4df4eff;
+    color:black;
+}
+.checkoutbtn:hover{
+    background-color: #949398ff;
+    color:black;
+    font-weight: bold;
+}
+.order{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.orderbtn{
+    color:black;
+    width:15%;
+    margin:2%;
+    background-color: #949398ff;
+    color:black;
+    font-weight: bold;
+}
+.orderbtn:hover{
+    background-color: #f4df4eff;
+    color:black;}
+@media screen and (max-width:800px){
+    .products{
+        background-color: #949398ff;
+        border:2px solid black;
+        box-shadow:0 0 10px ;
+        width:70%;
+        padding:1%;
+        margin:1%;
+        height:auto;
+    }
+    /* login.js */
+    .homebtn{
+        width:25%
+    }
+    .logins{
+        width:90%;
+        height:60%;
+        
+    }
+    /* register.js */
+    .registers{
+        
+        width:70%;
+        height:auto;
+        }
+    /* seller.js */
+    .unauth{
+        font-size:200px;
+        position:relative;
+        left:30%;
+        color:#949398ff
+    }
+    .sellers{
+        width: 80%;
+    }
+    /* cart.js */
+    .cart{
+        max-width:90%;
+    }
+    .clearcart{
+        width:30%;
+    }
+    /* checkout.js */
+    .checkout{
+        flex-direction: column;
+    }
+    .checkoutmain{
+        width:90%
+    }
+    .checkoutcard{
+        width:25%;
+    }
+    .checkoutproduct{
+        width:90%
+    }
+    /* navbar.js */
+    .category{
+        width:50%;
+        margin:0;
+        
+    }
+    .searchnav{
+        width:90%;
+    }
+    .navelement{
+        margin:0;
+        width:300px;
+    }
+    .orderbtn{
+        width:30%;
+    }
+}
