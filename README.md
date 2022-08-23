@@ -1,6 +1,6 @@
 
 ## E-Commerce Website Using MERN
-
+![mernecom](https://user-images.githubusercontent.com/106299210/186093298-db9428ac-3d96-436c-8c6d-0d1b15a99bf6.png)
 
 
 ## Features
